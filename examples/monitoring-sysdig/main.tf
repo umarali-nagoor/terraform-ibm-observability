@@ -12,7 +12,7 @@ data "ibm_resource_group" "sysdig" {
 
 module "sysdig_instance" {
   source                  = "terraform-ibm-modules/observability/ibm//modules/monitoring-sysdig"
-
+  
   bind_resource_key       = var.bind_resource_key
   service_name            = var.service_name
   resource_group_id       = data.ibm_resource_group.sysdig.id
