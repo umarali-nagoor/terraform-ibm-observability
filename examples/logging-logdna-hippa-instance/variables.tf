@@ -4,7 +4,7 @@
 #####################################################
 
 variable "bind_resource_key" {
-  description = "Flag indicating that logdna instance key should be bind to logdna instance"
+  description = "Bool(0/1) Flag indicating that logdna instance key should be bind to logdna instance"
   type        = bool
 }
 
@@ -16,6 +16,7 @@ variable "service_name" {
 variable "plan" {
     description = "plan type"
     type        = string
+    default     = "hipaa-30-day"
 }
 
 variable "region" {
