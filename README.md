@@ -7,7 +7,7 @@ This is a collection of modules that make it easier to provision observability s
 
 ## Compatibility
 
-This module is meant for use with Terraform 0.12. 
+This module is meant for use with Terraform 0.13. 
 
 ## Usage
 
@@ -43,14 +43,14 @@ module "logdna_instance" {
 
 ### Terraform plugins
 
-- [Terraform](https://www.terraform.io/downloads.html) 0.12
+- [Terraform](https://www.terraform.io/downloads.html) 0.13
 - [terraform-provider-ibm](https://github.com/IBM-Cloud/terraform-provider-ibm) 
 
 ## Install
 
 ### Terraform
 
-Be sure you have the correct Terraform version (0.12), you can choose the binary here:
+Be sure you have the correct Terraform version (0.13), you can choose the binary here:
 - https://releases.hashicorp.com/terraform/
 
 ### Terraform plugins

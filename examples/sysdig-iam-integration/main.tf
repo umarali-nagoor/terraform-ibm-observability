@@ -7,7 +7,7 @@ provider "ibm" {
 }
 
 module "access_group" {
-  source  = "terraform-ibm-modules/iam/ibm//modules/access-group"
+  source       = "terraform-ibm-modules/iam/ibm//modules/access-group"
 
   name         = var.name
   tags         = var.ag_tags
